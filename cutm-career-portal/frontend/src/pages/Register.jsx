@@ -48,7 +48,7 @@ function Register() {
     if (!validate()) return;
 
     try {
-      const BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
+      const BASE_URL = import.meta.env.VITE_API_URL || "https://talentry-backend.onrender.com/";
 
       const res = await axios.post(`${BASE_URL}/api/users/register`, formData);
 

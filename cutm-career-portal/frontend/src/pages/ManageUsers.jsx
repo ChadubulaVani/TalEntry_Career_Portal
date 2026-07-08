@@ -16,7 +16,7 @@ function ManageUsers() {
   const [currentPage, setCurrentPage] = useState(1);
   const usersPerPage = 5;
 
-  const BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
+  const BASE_URL = import.meta.env.VITE_API_URL || "https://talentry-backend.onrender.com/";
 
   useEffect(() => {
     const token = localStorage.getItem("token");
