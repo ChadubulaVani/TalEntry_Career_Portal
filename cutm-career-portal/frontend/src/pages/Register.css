@@ -1,0 +1,136 @@
+/* Page container */
+.register-page {
+  display: flex;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+ 
+}
+
+/* Left side: image + quote */
+.left-side {
+  flex: 1;
+  background-color: #f0f4f8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  text-align: center;
+  
+}
+
+.left-side img {
+  max-width: 75%;
+  height: 75%;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.left-side .quote {
+  font-size: 25px;
+  font-style: italic;
+  color: #333;
+}
+
+/* Right side: form */
+.right-side {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  background-color: #cfcfc9;
+
+  /* Reduce width */
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.right-side h1 {
+  margin-bottom: 30px;
+  color: #333;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* Inputs and select */
+.right-side input,
+.right-side select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: border 0.2s;
+}
+
+.right-side input:focus,
+.right-side select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Error messages */
+.error {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+/* Button */
+.right-side button {
+  width: 100%;
+  padding: 12px 0;
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background 0.2s;
+}
+
+.right-side button:hover {
+  background-color: #0056b3;
+}
+
+/* ✅ Login text */
+.login-text {
+  margin-top: 14px;
+  text-align: center;
+  font-size: 15px;
+  color: #333;
+}
+
+.login-link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.login-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsive: stack on small screens */
+@media (max-width: 900px) {
+  .register-page {
+    flex-direction: column;
+  }
+
+  .left-side,
+  .right-side {
+    flex: unset;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .left-side img {
+    margin-bottom: 15px;
+  }
+}

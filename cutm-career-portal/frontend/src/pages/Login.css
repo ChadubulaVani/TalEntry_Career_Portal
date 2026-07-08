@@ -1,0 +1,151 @@
+.login-page {
+  display: flex;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Left side: quote + image */
+.login-left {
+  flex: 1;
+  background-color: #f0f4f8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  text-align: center;
+  margin-bottom: 7%;
+}
+
+.login-left img {
+  max-width: 53%;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+.login-left .quote {
+  font-style: italic;
+  font-size: 25px;
+  color: #333;
+}
+
+/* Right side: form */
+.login-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  background-color: #cfcfc9;
+
+  /* Reduce width */
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.login-right h1 {
+  margin-bottom: 30px;
+  color: #333;
+  font-size: 32px;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* Inputs */
+.login-right input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border 0.2s;
+}
+
+.login-right input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Button */
+.login-right button {
+  width: 100%;
+  padding: 12px 0;
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.login-right button:hover {
+  background-color: #0056b3;
+}
+
+/* ✅ Register text */
+.register-text {
+  margin-top: 14px;
+  text-align: center;
+  font-size: 15px;
+  color: #333;
+}
+
+.register-link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.register-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsive for small screens */
+@media (max-width: 900px) {
+  .login-page {
+    flex-direction: column;
+  }
+
+  .login-left,
+  .login-right {
+    flex: unset;
+    width: 100%;
+    padding: 20px;
+  }
+
+  .login-left img {
+    margin-top: 15px;
+  }
+}
+.otp-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.secondary-btn,
+.back-btn {
+  flex: 1;
+  padding: 10px 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.secondary-btn {
+  background: #f3f4f6;
+  color: #111827;
+}
+
+.back-btn {
+  background: #e5e7eb;
+  color: #111827;
+}
+
+.secondary-btn:hover,
+.back-btn:hover {
+  opacity: 0.9;
+}
