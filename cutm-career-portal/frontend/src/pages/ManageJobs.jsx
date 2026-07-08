@@ -14,7 +14,7 @@ const initialForm = {
 
 function ManageJobs() {
   const navigate = useNavigate();
-  const BASE_URL = import.meta.env.VITE_API_URL || "https://talentry-backend.onrender.com/";
+  const BASE_URL = import.meta.env.VITE_API_URL || "https://talentry-backend.onrender.com";
 
   const [jobs, setJobs] = useState([]);
   const [loading, setLoading] = useState(true);

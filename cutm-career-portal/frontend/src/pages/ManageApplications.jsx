@@ -6,7 +6,7 @@ import "./ManageApplications.css";
 
 function ManageApplications() {
   const navigate = useNavigate();
-  const BASE_URL = import.meta.env.VITE_API_URL || "https://talentry-backend.onrender.com/";
+  const BASE_URL = import.meta.env.VITE_API_URL || "https://talentry-backend.onrender.com";
 
   const [applications, setApplications] = useState([]);
   const [loading, setLoading] = useState(true);

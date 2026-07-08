@@ -5,6 +5,12 @@ It is designed to help students manage their career journey — from profile bui
 
 ---
 
+## WELCOME TO TALENTRY 
+
+<p align="center">
+  <img src="./cutm-career-portal/screenshots/Talentry Card.png" width="90%">
+</p>
+
 ## ✨ Live Features Overview
 
 Talentry is a role-based career platform designed for:

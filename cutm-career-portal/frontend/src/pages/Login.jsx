@@ -17,7 +17,7 @@ function Login() {
   const [otpStep, setOtpStep] = useState(false);
   const [savedEmail, setSavedEmail] = useState("");
 
-  const BASE_URL = import.meta.env.VITE_API_URL || "https://talentry-backend.onrender.com/";
+  const BASE_URL = import.meta.env.VITE_API_URL || "https://talentry-backend.onrender.com";
 
   const handleChange = (e) => {
     setFormData((prev) => ({ ...prev, [e.target.name]: e.target.value }));
