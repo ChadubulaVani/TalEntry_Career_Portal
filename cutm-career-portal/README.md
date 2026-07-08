@@ -231,15 +231,15 @@ Focused on real-world campus placement use case
 
 ### ⚙️ Installation & Setup
 1. Clone Repository
-git clone https://github.com/your-username/talentry-career-portal.git
+git clone https://github.com/ChadubulaVani/TalEntry_Career_Portal.git
 cd cutm-career-portal
 
 2. Install Dependencies
-Frontend
+- Frontend
 cd frontend
 npm install
 npm run dev
-Backend
+- Backend
 cd backend
 npm install
 npm start
