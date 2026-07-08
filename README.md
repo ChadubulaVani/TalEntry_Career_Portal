@@ -270,6 +270,21 @@ Email notifications for job updates
 Advanced job recommendation system
 Internship integration module
 
+## 🚀 Deployment
+
+The TalEntry Career Portal is deployed using separate frontend and backend hosting services.
+
+### 🌐 Live Application
+
+Frontend:
+https://talentry-career-portal.vercel.app/
+- Platform: Vercel
+Backend API:
+https://talentry-backend.onrender.com
+- Platform: Render
+
+---
+
 ## 👩‍💻 Developer
 Built by: **CHADUBULA VANI**
 💡 Aspiring Full Stack Developer
