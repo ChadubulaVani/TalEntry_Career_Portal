@@ -279,6 +279,7 @@ The TalEntry Career Portal is deployed using separate frontend and backend hosti
 Frontend:
 https://talentry-career-portal.vercel.app/
 - Platform: Vercel
+
 Backend API:
 https://talentry-backend.onrender.com
 - Platform: Render
